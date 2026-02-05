@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SnapFlow</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>SnapFlow</h1>
+  <button onclick="toggleMode()">🌙</button>
+</header>
+
+<section class="motivation">
+  🔥 Today’s Boost: Stay consistent. Results will follow.
+</section>
+
+<div class="feed">
+
+  <div class="post">
+    <img src="https://picsum.photos/400/300" alt="post">
+    <div class="content">
+      <span class="mood">Mood: Hustle 💪</span>
+      <p class="caption">
+        Building my first website from scratch!
+        <span class="more">Learning every day.</span>
+      </p>
+      <button onclick="likePost(this)">❤️ Like <span>0</span></button>
+      <small>Posted 5 mins ago</small>
+    </div>
+  </div>
+
+  <div class="post">
+    <img src="https://picsum.photos/401/300" alt="post">
+    <div class="content">
+      <span class="mood">Mood: Calm 🌿</span>
+      <p class="caption">Peace over pressure.</p>
+      <button onclick="likePost(this)">❤️ Like <span>0</span></button>
+      <small>Posted 12 mins ago</small>
+    </div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
